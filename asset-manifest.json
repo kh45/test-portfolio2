@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/test-portfolio2/static/css/main.82b61496.chunk.css",
+    "main.js": "/test-portfolio2/static/js/main.bac52103.chunk.js",
+    "main.js.map": "/test-portfolio2/static/js/main.bac52103.chunk.js.map",
+    "runtime-main.js": "/test-portfolio2/static/js/runtime-main.5f32b024.js",
+    "runtime-main.js.map": "/test-portfolio2/static/js/runtime-main.5f32b024.js.map",
+    "static/css/2.11829350.chunk.css": "/test-portfolio2/static/css/2.11829350.chunk.css",
+    "static/js/2.f83f49a6.chunk.js": "/test-portfolio2/static/js/2.f83f49a6.chunk.js",
+    "static/js/2.f83f49a6.chunk.js.map": "/test-portfolio2/static/js/2.f83f49a6.chunk.js.map",
+    "index.html": "/test-portfolio2/index.html",
+    "precache-manifest.75d7721e3a1065c6e705103c11790cdf.js": "/test-portfolio2/precache-manifest.75d7721e3a1065c6e705103c11790cdf.js",
+    "service-worker.js": "/test-portfolio2/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/test-portfolio2/static/css/2.11829350.chunk.css.map",
+    "static/css/main.82b61496.chunk.css.map": "/test-portfolio2/static/css/main.82b61496.chunk.css.map",
+    "static/js/2.f83f49a6.chunk.js.LICENSE.txt": "/test-portfolio2/static/js/2.f83f49a6.chunk.js.LICENSE.txt",
+    "static/media/AWS.svg": "/test-portfolio2/static/media/AWS.0a4e5998.svg",
+    "static/media/App.css": "/test-portfolio2/static/media/uefa.e0a86228.png",
+    "static/media/angular-icon-1.svg": "/test-portfolio2/static/media/angular-icon-1.48ae79d9.svg",
+    "static/media/github.svg": "/test-portfolio2/static/media/github.0ff1a6f0.svg",
+    "static/media/javascript.svg": "/test-portfolio2/static/media/javascript.2d2e31cc.svg",
+    "static/media/nodejs.svg": "/test-portfolio2/static/media/nodejs.b337a2fb.svg",
+    "static/media/postgresql.svg": "/test-portfolio2/static/media/postgresql.d7c985e7.svg",
+    "static/media/profpic.png": "/test-portfolio2/static/media/profpic.eab3a1d5.png",
+    "static/media/python.svg": "/test-portfolio2/static/media/python.146716bd.svg",
+    "static/media/react.svg": "/test-portfolio2/static/media/react.4009eef3.svg",
+    "static/media/redux.svg": "/test-portfolio2/static/media/redux.aa0a3376.svg",
+    "static/media/ruby.svg": "/test-portfolio2/static/media/ruby.8318adfc.svg",
+    "static/media/typescript.svg": "/test-portfolio2/static/media/typescript.3de182d2.svg",
+    "static/media/visualstudio.svg": "/test-portfolio2/static/media/visualstudio.8bc9131d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f32b024.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.f83f49a6.chunk.js",
+    "static/css/main.82b61496.chunk.css",
+    "static/js/main.bac52103.chunk.js"
+  ]
+}

@@ -3,37 +3,59 @@ export const projectsList = {
         title: "SportsScraper",
         description: "This is my sports project",
         img1: "./assets/SportsScraper.png",
-        buttons: {
-            name: 'GitHub',
-            image: './assets/logos/github.svg'
-        }
+        buttons: [
+            {
+            name: 'View Demo',
+            image: './assets/logos/youtube-icon.svg',
+            link: 'https://www.youtube.com/watch?v=27T709q_nN4'},
+            {name: 'GitHub',
+            image: './assets/logos/github.svg',
+            link: 'https://github.com/kh45/my-final-project-frontend'}
+        // },{name: 'GitHub',
+        // image: './assets/logos/github.svg',
+        // link: 'https://github.com/kh45/my-final-project-frontend'
+    // }
+    ]
     },
     pokemonTCG: {
         title: "PokemonTCG",
         description: "This is my sports project",
         img1: "./assets/pokemon.png",
-        buttons: {
-            name: 'GitHub',
-            image: './assets/logos/github.svg'
-        }
+        buttons: [
+            {
+            name: 'YouTube',
+            image: './assets/logos/youtube-icon.svg',
+            link: 'https://www.youtube.com/watch?v=oUA-xZwkMVM'},
+            {name: 'GitHub',
+            image: './assets/logos/github.svg',
+            link: 'https://github.com/kh45/PokeMonTCG-frontend'
+        }]
     },
     nightlife2: {
         title: "Nightlife",
         description: "This is my sports project",
         img1: "./assets/nightlife.png",
-        buttons: {
+        buttons: [
+            {
             name: 'YouTube',
-            image: './assets/logos/youtube.svg'
-        }
+            image: './assets/logos/youtube-icon.svg',
+            link: 'https://www.youtube.com/watch?v=oQcT3UKBWFQ'},
+            {name: 'GitHub',
+            image: './assets/logos/youtube.svg',
+            link: 'https://github.com/kh45/mod-4-project-frontend'
+        }]
     },
     uefaGame: {
         title: "UEFA CHAMPIONS MEMORY",
         description: "This is my sports project",
         img1: "./assets/uefa.png",
-        buttons: {
+        buttons: [
+            {
             name: 'GitHub',
-            image: './assets/logos/github.svg'
-        }
+            image: './assets/logos/github.svg'},
+            {name: 'Website',
+            image: './assets/logos/internet.svg'
+        }]
     }
 }
 

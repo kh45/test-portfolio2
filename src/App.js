@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './home'
 import Navbar from './Navbar'
 import About from './about'
+import Blog from './blog'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Navbar />
         <About />
         <Projects />
+        <Blog />
       </div>
   );
 }

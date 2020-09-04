@@ -92,16 +92,6 @@ class Projects extends React.Component {
                         </div>
                 </div>
             </div>
-            {/* <Modal show={this.state.showModal} size="lg" onHide={this.handleHide} dialogClassName="hey">
-                <Modal.Header className="screenshot">
-                    <img className="screenshots" src={require('./assets/SportsScraper.png')} /></Modal.Header>
-                <Modal.Body className="yello">
-                    <div className="nigga">
-                    Title of Thing
-                    </div>
-                </Modal.Body>
-                <Modal.Footer>Close</Modal.Footer>
-            </Modal> */}
             <MyModal showModal={this.state.showModal} project={this.state.selectedProject} handleHideParent={this.handleHideParent} />
             </div>
         )

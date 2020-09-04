@@ -14,11 +14,19 @@ class MyModal extends React.Component {
         </Carousel.Item>)
     }
 
+    handleLinkClick = (event) => {
+        window.open(event.target.parentNode.getAttribute('data-link'))
+    }
+
     createButtons = (project) => {
-        return (<div>
-                <img src={require(`${project.buttons.image}`)} />
-                <p>{project.buttons.name}</p>
+        return project.buttons.map(button => <div className="modal-button-div" data-link={button.link}>
+            <img className="modal-button modal-button-link" src={require(`${button.image}`)} onClick={this.handleLinkClick} />
+            <p className="modal-button-link" onClick={this.handleLinkClick}>{button.name}</p>
             </div>)
+        // return (<div className="modal-button-div">
+        //         <img className="modal-button" src={require(`${project.buttons.image}`)} />
+        //         <p>{project.buttons.name}</p>
+        //     </div>)
     }
 
     render() {
@@ -57,7 +65,7 @@ class MyModal extends React.Component {
                         <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
                     </div>
                 </Modal.Body>
-                <Modal.Footer><div>{this.createButtons(this.props.project)}</div></Modal.Footer>
+                <Modal.Footer><div className="modal-foot-buttons">{this.createButtons(this.props.project)}</div></Modal.Footer>
             </Modal>
         )
     }
